@@ -1,0 +1,24 @@
+.benefits{
+    list-style: none;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardInformation{
+    align-items: center;
+    text-align: center;
+    
+}
+#delivery{
+    width: 75px;
+    height: 80px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.textInformation p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

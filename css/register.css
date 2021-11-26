@@ -1,0 +1,100 @@
+.register{
+    width: 100%;
+    height: 340px;
+    background-color: #4e4e4e;
+    margin-top: 80px;
+    display: flex;
+    align-content: center;
+    
+}
+.listRegister{
+   display: flex;
+    margin-top: 80px;
+    
+    list-style: none;
+   
+}
+.logoRegister {
+    
+    margin-left: 120px;
+    width: 150px;
+    height: 40px;
+    
+}
+.itemRegister{
+    margin-right: 100px;
+    
+}
+.itemRegister p{
+    color: #fff;
+    font-family: 'Poppins' sans-serif;
+    font-size: 18px;
+
+}
+.textArea{
+    border: 1px solid #000;
+    background-color: #fff;
+    height: 50px;
+    width: 250px;
+    resize: none;
+    
+}
+.textArea::-webkit-input-placeholder{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.btnRegister{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+}
+.btnRegister:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+.nameEmail{
+    margin-right: 10px;
+}
+.imagesRodape{
+    display: flex;
+}
+.lojaImagem{
+    margin-left: 200px;
+    width: 850px;
+    height: 250px;
+    margin-top: -125px;
+    border: 20px solid #fff;
+}
+
+.cardRodape{
+    background-image: url("../img/wpp.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 230px;
+    margin-top: -125px;
+    border-top: 20px solid #fff;
+    border-right: 20px solid #fff;
+    
+}
+.cardRodape h3{
+    font-family: 'Reenie Beanie', cursive;
+    text-align: center;
+    margin-top: 60px;
+    color: #000;
+    font-size: 60px;
+    
+}
+.cardRodape p{
+    font-family: 'Poppins' sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+   
+}
+
